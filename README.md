@@ -1,2 +1,3 @@
-# web_vending_machine
+# Web Vending Machine
+
 Web Vending Machine
