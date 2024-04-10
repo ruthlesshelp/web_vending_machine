@@ -20,4 +20,4 @@ def buy_product(request):
         vm.buy_product()
         return JsonResponse({'msg': vm.message, 'product': "product"})
     except RuntimeError as e:
-        return JsonResponse({'msg': e.message, 'product': None})
+        return JsonResponse({'msg': str(e), 'product': None})
